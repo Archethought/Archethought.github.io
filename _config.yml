@@ -7,5 +7,10 @@ logo: arch-logo.png
 search: true
 url: https://archethought.github.io
 
-theme: minima
+# Jekyll  configuration
+# theme: https://github.com/the-development/flex
+
+name: Flex
+markdown: kramdown
+pygments: true
 
