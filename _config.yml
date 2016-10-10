@@ -1,11 +1,55 @@
-# Site wide configuration
+# Site settings
+title: "Archethought Blog"
+url: "//Archethought.github.io"
+paginate: 5
+author:
+    name: Archethought
+    github: archethought
+    email: carolyn@archethought.com
+    gitcafe:
+    twitter: archethoughts
+    facebook:
+    googleplus:
+    weibo:
+atom_path: /atom.xml
+rss_path: /rss.xml
 
-title: Archethought
-locale: en_US
-description: Discussions about Archethought technology solutions and community building.
-logo: arch-logo.png
-search: true
-url: https://archethought.github.io
+# Build settings
+kramdown:
+    input: GFM
+permalink: /:categories/:year-:month/:title.html
+gems: [jekyll-paginate]
+exclude: [Gemfile, Gemfile.lock, qrsync, Rakefile, docker-compose.yml]
+assets_path: /assets
+sass:
+    sass_dir: assets/_sass
+    style: :compressed
 
-theme: minima
+# comment
+comments:
+    duoshuo:
+        name:                                # short name
+        rcomments:
+            num: 10
+            avatar: 0
+            time: 0
+            title: 0
+            admin: 0
+            length: 26
 
+# tinysou.com
+search:
+    tinysou:
+        engineKey: 
+
+# 网站统计
+analytics:
+    baidu:
+        siteid:                             # 百度统计 js 代码后的字符串
+webmaster:
+    baidu:
+        verify:
+    google:
+        verify:
+    bing:
+        verify:

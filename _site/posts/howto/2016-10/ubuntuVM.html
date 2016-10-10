@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="renderer" content="webkit|ie-stand">
+  <title>Creating a basic Ubuntu Virtual Machine - Archethought Blog</title>
+  <meta name="author" content="Archethought">
+
+  <!-- fav and touch icons  -->
+  <link rel="shortcut icon" href="/assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-180x180.png">
+
+  <link rel="canonical" href="http://localhost:4000/posts/howto/2016-10/ubuntuVM.html">
+  <link rel="stylesheet" href="/assets/css/style.css" media="all">
+
+  <!-- atom & rss feed -->
+  <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Archethought Blog RSS Feed">
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Archethought Blog ATOM Feed">
+
+  
+  
+  
+
+  <script>
+    var domain = "havee.me";
+    var current = ["www.havee.me", "hae.coding.me"];
+    for ( var i = 0; i < current.length; i++ ) {
+      if ( document.location.host == current[i] ) {
+        document.location.href = "\/\/" + domain + this.location.pathname;
+      }
+    }
+  </script>
+</head>
+
+
+  <body>
+    <div class="container">
+      <!--[if lt IE 9]>
+<div class="alert alert-warning">
+  <p>Your Internet Explorer is not supported. Please upgrade your Internet Explorer to version 9+, or use latest <a href="http://www.google.com/chrome/" target="_blank" class="alert-link">Google chrome</a>、<a href="http://www.mozilla.org/firefox/" target="_blank" class="alert-link">Mozilla Firefox</a>.</p>
+  <p>If you are using IE 9 or later, make sure you <a href="http://windows.microsoft.com/en-us/internet-explorer/use-compatibility-view#ie=ie-8" target="_blank" class="alert-link">turn off "Compatibility view"</a>.</p>
+</div>
+<![endif]-->
+<header class="header">
+  <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+  <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <div class="title"><a title="Archethought Blog" href="/">Archethought Blog</a></div>
+  <ul class="nav navbar-nav collapse navbar-collapse bs-navbar-collapse navbar-right">
+    <li><a href="/archive.html" title="Archive"><span class='fa fa-archive fa-2x'></span></a></li>
+    <li><a href="/categories.html" title="Categories" rel="nofollow"><span class='fa fa-navicon fa-2x'></span></a></li>
+    <li><a href="/tags.html" title="Tags" rel="nofollow"><span class='fa fa-tags fa-2x'></span></a></li>
+    <li><a href="/about.html" title="About"><span class='fa fa-user fa-2x'></span></a></li>
+    
+    <li><a href="https://github.com/https://github.com/Archethought" target="_blank" title="Github" rel="nofollow"><span class='fa fa-github fa-2x'></span></a></li>
+    
+    
+    
+    <li><a href="https://twitter.com/https://twitter.com/archethoughts" target="_blank" title="twitter" rel="nofollow"><span class="fa fa-twitter fa-2x"></span></a></li>
+    
+    
+    
+
+    <li><a href="/rss.xml" target="_blank" title="RSS" rel="nofollow"><span class='fa fa-rss fa-2x'></span></a></li>
+  </ul>
+</header>
+
+
+      <article class="wrapper clearfix">
+          <h3 class="title"> Creating a basic Ubuntu Virtual Machine <time class="small">2016.10.07</time></h3>
+  <div id="code" class="qrcode visible-lg"></div>
+  <h1 id="virtual-box-setup">Virtual Box setup</h1>
+
+<p>I don’t set up a virtual machine often enough to remember which options I want, or maybe I just have a poor memory.  Either way, here are steps to create a simple Ubuntu virtual machine.</p>
+
+<h2 id="basic-frame">Basic Frame</h2>
+
+<p>In Oracle VirtualBox, select “New” and answer the prompts as described below.</p>
+
+<ul>
+  <li>
+    <p>Name: Suggest “xxx-os-version”. Ex:ample “vb2-ubuntu-16-04-01” or “vm1-ubuntu-16041”
+<br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-name.png?raw=true" alt="graphic of VirtualBox setup dialog" class="img-responsive" style="border: 1px solid black" /></p>
+  </li>
+  <li>
+    <p>Memory Size: Suggest 8192 MB (8 GB) of RAM, or something less that the host machine has.
+<br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-ram.png?raw=true" alt="graphic of VirtualBox setup dialog" class="img-responsive" style="border: 1px solid black" /></p>
+  </li>
+  <li>
+    <p>Hard disk: create a virtual hard disk now
+<br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-disk.png?raw=true" alt="graphic of VirtualBox setup dialog" class="img-responsive" style="border: 1px solid black" /></p>
+  </li>
+  <li>
+    <p>Hard disk file type: VDI
+<br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-diskType.png?raw=true" alt="graphic of VirtualBox setup dialog" class="img-responsive" style="border: 1px solid black" /></p>
+  </li>
+  <li>
+    <p>Disk storage: Dynamically allocated
+<br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-diskStorage.png?raw=true" alt="graphic of VirtualBox setup dialog" class="img-responsive" style="border: 1px solid black" /></p>
+  </li>
+  <li>
+    <p>File location &amp; size: Size by need, and note that Ubuntu needs at least 25 GB. Suggest creating a directory for all things virtual machine and putting the disk file there.
+<br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-diskStorage.png?raw=true" alt="graphic of VirtualBox setup dialog" class="img-responsive" style="border: 1px solid black" /></p>
+  </li>
+</ul>
+
+<p>The first time you fire up the virtual machine you will be asked for an operating system file (iso). Download this first and be ready! You can get Ubuntu desktop from http://www.ubuntu.com/download/desktop.<br />
+Follow installation instructions.
+Select download updates while installing ubuntu.
+<br /> 
+<img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-installOS1.png?raw=true" alt="graphic of VirtualBox OS installation dialog" class="img-responsive" style="border: 1px solid black" />
+<img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-installOS2.png?raw=true" alt="graphic of VirtualBox OS installation dialog" class="img-responsive" style="border: 1px solid black" /></p>
+
+<p>For the hostname, suggest “user-vmX”, then you know by the name what user is defined. Example: “carolyn-vm4”
+<br /> 
+<img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-installOS3.png?raw=true" alt="graphic of VirtualBox OS installation dialog" class="img-responsive" style="border: 1px solid black" /></p>
+
+<h2 id="guest-extensions">Guest Extensions</h2>
+<p>These enable cut and paste between host and virtual machine and folder sharing. See 
+<a href="http://virtualboxes.org/doc/installing-guest-additions-on-ubuntu/">http://virtualboxes.org/doc/installing-guest-additions-on-ubuntu/</a></p>
+
+<p>Open a terminal window and issue the commands:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>	sudo apt-get update
+	sudo apt-get upgrade <span class="c">#(y to prompt or use -y flag; takes a while)</span>
+	sudo apt-get install  build-essential  module-assistant <span class="c">#(y to prompt)</span>
+	sudo m-a prepare
+</code></pre>
+</div>
+
+<p>From the running VM window select:</p>
+
+<ul>
+  <li>Devices</li>
+  <li>Insert guest additions CD image -</li>
+  <li>run</li>
+  <li>enter root password</li>
+</ul>
+
+<h3 id="seup-copy-paste">Seup Copy-Paste</h3>
+<p>From the running VM window select: Devices - Shared Clipboard - Bi-directional</p>
+
+<h3 id="setup-a-shared-folder">Setup a shared folder</h3>
+
+<ul>
+  <li>settings on virtualBox dialog or Devices  on current VB window</li>
+  <li>shared folders</li>
+  <li>add share</li>
+  <li>host directory path. ex: C:\Users\COwnby\Documents\VBShare</li>
+  <li>name of share, ex: VBShare</li>
+  <li>auto mount</li>
+  <li>make permanent</li>
+  <li>Then from command line: sudo usermod -a -G vboxsf <username></username></li>
+</ul>
+
+<h1 id="nice-things-to-have">Nice things to have</h1>
+
+<h2 id="java">Java</h2>
+<p>Seems that java is required for just about everything. Go ahead and install it now.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo apt-get update
+sudo add-apt-repository -y ppa:webupd8team/java
+sudo apt-get update
+<span class="nb">echo </span>oracle-java8-installer shared/accepted-oracle-license-v1-1 <span class="k">select </span><span class="nb">true</span> | /usr/bin/debconf-set-selections
+sudo apt-get install -y oracle-java8-installer
+</code></pre>
+</div>
+
+<h2 id="python">Python</h2>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo apt install python-pip
+</code></pre>
+</div>
+<p><br /></p>
+
+<h1 id="networking">Networking</h1>
+<p>I am running VirtualBox from Windows 10, and setting up networking so my machine is outside accessible has been tricky. This can be done with a bridged adapter or NAT networking</p>
+
+<h2 id="bridged-adapter">Bridged Adapter</h2>
+<p>With bridged networking, your virtual machine is seen externally as a normal network device.
+For more information, see <a href="https://www.virtualbox.org/manual/ch06.html#network_bridged">Virtual Box Bridged Networking</a></p>
+
+<p>Under your VM settings, go to the network tab.</p>
+
+<ul>
+  <li>Attached To: Bridged Adapter
+ <br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-networkBA1.png?raw=true" alt="graphic of Virtual Box Network setup dialog" class="img-responsive" style="border: 1px solid black" /></li>
+  <li>Name: is the device showing connectivity from Control Panel\Network and Internet\Network Connections
+ <br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-networkBA2.png?raw=true" alt="graphic of Wondows Network setup dialog" class="img-responsive" style="border: 1px solid black" /></li>
+</ul>
+
+<h2 id="nat-networking">NAT Networking</h2>
+<p>An alternative is to use NAT Network with port mapping. A port on the host PC is mapped to each virtual machine, so your VM is externally addressable via the host PC’s IP and a port number.
+For more information, see <a href="https://www.virtualbox.org/manual/ch06.html#network_nat">Virtual Box NAT Networking</a></p>
+
+<p>You’ll first need to get the ip address of your virtual machine with <code class="highlighter-rouge">ip a</code>.
+Under your virtual machine settings network tab, set:</p>
+
+<ul>
+  <li>Attached To: NAT Network
+<br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-networkNat0.png?raw=true" alt="graphic of Virtual Box Network setup dialog" class="img-responsive" style="border: 1px solid black" /></li>
+</ul>
+
+<p>Then, in Oracle VM VirtualBox Manager</p>
+
+<ul>
+  <li>
+    <p>select File - Preferences
+<br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-networkNat1.png?raw=true" alt="graphic of Virtual Box Network setup dialog" class="img-responsive" style="border: 1px solid black" /></p>
+  </li>
+  <li>go to Network tab</li>
+  <li>
+    <p>select the screwdriver
+<br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-networkNat2.png?raw=true" alt="graphic of Virtual Box Network setup dialog" class="img-responsive" style="border: 1px solid black" /></p>
+  </li>
+  <li>select “port forwarding”
+<br /> <img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-networkNat3.png?raw=true" alt="graphic of Virtual Box Network setup dialog" class="img-responsive" style="border: 1px solid black" />
+<img src="https://github.com/Archethought/Archethought.github.io/blob/master/images/posts/VM-networkNat4-portRules.png?raw=true" alt="graphic of Virtual Box Network setup dialog" class="img-responsive" style="border: 1px solid black" /></li>
+</ul>
+
+<p>To enable ssh access, for example, you might set:</p>
+
+<ul>
+  <li>Host Port = 2222</li>
+  <li>Guest IP = virtual machine’s IP address from <code class="highlighter-rouge">ip a</code></li>
+  <li>Guest Port = 22</li>
+</ul>
+
+<p>Then to ssh to the virtual machine, you use</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>ssh user@host-ip:2222
+</code></pre>
+</div>
+
+
+  <ul class="pager">
+    
+    <li class="previous"><a  href="/posts/2013-12/example-post.html" title="Example post">&larr; Prev</a></li>
+    
+    
+    <li class="next disabled"><a href="#">Next &rarr;</a></li>
+    
+  </ul>
+
+
+
+
+
+      </article>
+
+      <footer class="footer text-center">
+  <p>&copy; 2016 <a href="http://localhost:4000" title="">Archethought</a>. with Help from <a href="//jekyllrb.com/" title="Transform your plain text into static websites and blogs.">Jekyll</a> and <a href="//getbootstrap.com/" title="Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.">Bootstrap</a></p>
+  <p>Articles are licensed under <a href="//creativecommons.org/licenses/by/3.0/" title="CC BY 3.0 License">the CC BY 3.0</a></p>
+</footer>
+
+    </div>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/webcore.js"></script>
+    <script src="/assets/js/jquery.qrcode.min.js"></script>
+
+    <script>
+      $("#code").qrcode({
+        width: 150,
+        height: 150,
+        text: "http:http://localhost:4000/posts/howto/2016-10/ubuntuVM.html"
+      });
+    </script>
+
+    
+
+    
+
+
+    
+  </body>
+</html>
