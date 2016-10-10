@@ -1,0 +1,11 @@
+# Site wide configuration
+
+title: Archethought
+locale: en_US
+description: Discussions about Archethought technology solutions and community building.
+logo: arch-logo.png
+search: true
+url: https://archethought.github.io
+
+theme: minima
+
