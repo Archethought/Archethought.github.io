@@ -1,14 +1,23 @@
-title:            Archethought Blog
-description:      Discussions about Archethought technology solutions and community building.
+# Site wide configuration
+
+title: Archethought
+locale: en_US
+description: Discussions about Archethought technology solutions and community building.
+logo: arch-logo.png
+search: true
+url: https://archethought.github.io
+
+#title:            Blog Title
+#description:      Describe your website here.
 # put your disqus here
 disqus_shortname: 
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo:             images/logo.png # logo visible in the topbar
+#logo:             images/logo.png # logo visible in the topbar
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://aronbordin.com/neo-hpstr-jekyll-theme
+#url: http://aronbordin.com/neo-hpstr-jekyll-theme
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -33,13 +42,13 @@ menu:
 
 # Owner/author information
 owner:
-  name:           Archethought
+  name:           Carolyn Ownby
   site:           http://archethought.com
   avatar:         images/avatar.jpg
-  bio:            "Technology developers of strong character"
+  bio:            "We are technology developers of stellar character interested in bettering our customers and building community"
   email:          carolyn@archethought.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: archethoughts # if no twitter in this config, the twitter follow button will be removed
+  twitter: Archethoughts # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
   github: archethought
 
@@ -112,3 +121,4 @@ titlecase: true
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 gems: [jekyll-paginate]
+
