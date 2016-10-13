@@ -6,10 +6,10 @@ date:   2013-12-09 12:00:00
 categories: posts
 ---
 
-## Introducing Flex, a Jekyll theme
+## Introducing Jekyll themes
 
-Flex is a minimalist, responsive theme based on the website, [The Development](http://thedevelopment.co).
+[Jekyll themes](https://github.com/jekyll/jekyll/wiki/Themes) really aren't *themes* at all, but simply layouts.  Many are highly complex, pulling setup definitions from who knows where and ignoring the local css stylesheet.  __Caution!__
 
 ## Open Sourced on GitHub
 
-Flex is open sourced on GitHub and is licensed under the [MIT License](http://opensource.org/licenses/MIT). Feel free to contribute to it anytime!
+Most are freely available on github.  [Made Mistakes](https://github.com/mmistakes) has some very nice ones.
