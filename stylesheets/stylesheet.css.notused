@@ -7,10 +7,11 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71; /* gray */
+}
 
 a {
-  color: #1e6bb8;
+  color: red /* #1e6bb8; /* blue */
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -18,8 +19,8 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
+  color: red /* rgba(255, 255, 255, 0.7); /* ? transparant white? */
+  background-color: red /* rgba(255, 255, 255, 0.08); */
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
   border-width: 1px;
@@ -54,10 +55,10 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  color:  #fff; /* blue */
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color:  #159957; /* green */
+  background-image: linear-gradient(120deg, #155799, 159957); }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -112,31 +113,32 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: red /* #159957; /* green */
+}
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.9rem;
-  color: #383e41;
-  background-color: #f3f6fa;
+  color:  #383e41; /* black */
+  background-color: #f3f6fa; /* off white */
   border-radius: 0.3rem; }
 .main-content pre {
   padding: 0.8rem;
   margin-top: 0;
   margin-bottom: 1rem;
   font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  color: #567482;
+  color: #567482;  /* gray */
   word-wrap: normal;
-  background-color: #f3f6fa;
-  border: solid 1px #dce6f0;
+  background-color: #f3f6fa; /* off white */
+  border: solid 1px #dce6f0; /* light gray */
   border-radius: 0.3rem; }
   .main-content pre > code {
     padding: 0;
     margin: 0;
     font-size: 0.9rem;
-    color: #567482;
+    color: #567482; /* gray */
     word-break: normal;
     white-space: pre;
     background: transparent;
@@ -169,7 +171,7 @@ a {
 .main-content blockquote {
   padding: 0 1rem;
   margin-left: 0;
-  color: #819198;
+  color: #819198; /* gray */
   border-left: 0.3rem solid #dce6f0; }
   .main-content blockquote > :first-child {
     margin-top: 0; }
@@ -200,7 +202,7 @@ a {
   height: 2px;
   padding: 0;
   margin: 1rem 0;
-  background-color: #eff0f1;
+  background-color: #eff0f1; /* off white */
   border: 0; }
 
 @media screen and (min-width: 64em) {
