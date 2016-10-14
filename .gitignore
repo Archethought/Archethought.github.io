@@ -8,7 +8,8 @@
 .jekyll-metadata
 .ruby-gemset
 .ruby-version
-.sass-cache
+.sass-cache/
+.sass-cache/*
 /test/source/file_name.txt
 /vendor
 Gemfile.lock
@@ -21,3 +22,8 @@ pkg/
 site/_site/
 test/dest
 tmp/*
+
+.Spotlight-v100
+qrsync
+_qiniu.json
+!.gitkeep
