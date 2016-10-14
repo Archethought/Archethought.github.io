@@ -8,7 +8,7 @@ author:
     email: carolyn@archethought.com
     gitcafe:
     twitter: archethoughts
-    facebook:
+    facebook: cosolvenetwork
     googleplus:
     weibo:
 atom_path: /atom.xml
@@ -42,10 +42,10 @@ search:
     tinysou:
         engineKey: 
 
-# 网站统计
+# Website Statistics
 analytics:
     baidu:
-        siteid:                             # 百度统计 js 代码后的字符串
+        siteid:                             # Baidu statistics js code string after
 webmaster:
     baidu:
         verify:
