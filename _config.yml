@@ -4,11 +4,11 @@ description:      Discussions about Archethought technology solutions and commun
 disqus_shortname: 
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo:             images/logo.png # logo visible in the topbar
+logo:             images/logo-archethought-gear.png # logo visible in the topbar
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-
-url: http://aronbordin.com/neo-hpstr-jekyll-theme
+url: http://localhost:4000/
+#url: https://archethought.github.io
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -35,7 +35,7 @@ menu:
 owner:
   name:           Archethought
   site:           http://archethought.com
-  avatar:         images/avatar.jpg
+  avatar:         images/logo-archethought-gear.png
   bio:            "Technology developers of strong character"
   email:          carolyn@archethought.com
   # Twitter nick for use in Twitter cards and follow button.
