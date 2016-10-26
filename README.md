@@ -1,13 +1,27 @@
 # Archethought Blog
 
 Experimenting with jekyll-based website creation & blogging:  
-We decided to go with the SoSimple layout for now. See below for branches with other layouts we may reconsider.
+We decided to go with the SoSimple layout for now. See below for branches with other layouts we considered. We can change layouts at any time fairly easily.
+
+## How to add information
+We have a spot for both articles and blogs: \_posts/blog and \_posts/articles
+
+To add a blog entry, you simply write the blog with [Kramdown](http://kramdown.gettalong.org/syntax.html) styled markdown and check it into the \_posts/blog directory, similarly with articles.  Any referenced images go in the images/posts directory.  Each blog entry requires a header as per this sample:
+```
+---
+layout: post
+title: "<document title>"
+categories: blog howTo practices
+tags:	[virtual machine, vm]
+date:   2016-10-07T12:00:00
+modified:
+---
+```
 
 ## Findings
 [Jekyll themes](https://github.com/jekyll/jekyll/wiki/Themes) really aren't *themes* at all, but simply layouts which are pre-developed site pages you can add to the github.io repository and then expand upon. No magic.
-With Jekyll, you can modify your site; i.e., add a blog, and then serve it locally before committing with `bundle exec jekyll serve`
+With Jekyll, you can verify your post looks acceptable before making it public. Clone the repository, modify your site; i.e., add a blog, and then serve it locally before committing with `bundle exec jekyll serve`. See more detail below.
 
-So to add a blog entry, you simply write the blog with [Kramdown](http://kramdown.gettalong.org/syntax.html) markdown and add it to the \_posts directory.  Any referenced images go in the images/posts directory.
 
 ## Branched Samples
 
