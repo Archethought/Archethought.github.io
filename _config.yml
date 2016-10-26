@@ -3,9 +3,9 @@
 title: Archethought Blog
 locale: en_US
 description: Discussions about Archethought technology solutions and community building.
-logo: logo-archethought-gear.png
+logo: brain-icon.png
 search: true
-url: http://localhost:4000 #https://archethought.github.io
+url: https://archethought.github.io
 
 # Jekyll configuration
 
