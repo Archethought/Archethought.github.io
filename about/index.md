@@ -20,6 +20,7 @@ The Archethought team has a wide variety of skill sets and diciplines from backe
 
 
 -----
+
 # What We Do
 
 ## Smart Infrastructure & IoT
