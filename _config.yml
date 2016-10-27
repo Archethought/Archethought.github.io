@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Archethought Blog
+title: Archethought, Inc
 locale: en_US
-description: Discussions about Archethought technology solutions and community building.
+description: Technology solutions and community building.
 logo: brain-icon.png
 search: true
 url: https://archethought.github.io
@@ -51,7 +51,7 @@ owner:
   pinterest: #username
   weibo: #userid
   google:
-    plus: #username
+    plus: #https://plus.google.com/communities/114808871101164175024/members  #username
     analytics:
     verify:
     ad-client:

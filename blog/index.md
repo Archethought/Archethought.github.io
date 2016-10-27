@@ -1,8 +1,13 @@
 ---
 layout: page
-title: Blog
-excerpt: "An archive of blog posts sorted by date."
+title: Archethought Blog
+excerpt: "Discussions about Archethought technology solutions and community building."
 search_omit: true
+modified: 
+image:
+  feature: gear-wallpaper.jpg
+  credit: 
+  creditlink: 
 ---
 
 <ul class="post-list">
