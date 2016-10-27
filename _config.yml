@@ -3,7 +3,7 @@
 title: Archethought, Inc
 locale: en_US
 description: Technology solutions and community building.
-logo: brain-icon.png
+logo:  #brain-icon.png
 search: true
 url: https://archethought.github.io
 

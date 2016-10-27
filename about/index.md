@@ -9,6 +9,6 @@ image:
   creditlink: http://archethought.com
 ---
 
-Might be nice to have a backdrop picture
+[We are techonology developers of exceptionally strong character.](http://www.archethought.com/)
 
 [^1]: Example: *domain.com/category-name/post-title*
