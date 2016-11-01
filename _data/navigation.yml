@@ -1,7 +1,13 @@
 # Site navigation links
 
+- title: Home
+  url: /
+
 - title: About
   url: /about/
+
+- title: What We Do
+  url: /what/
 
 #- title: Articles
 #  url: /articles/
