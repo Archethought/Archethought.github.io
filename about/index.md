@@ -4,7 +4,7 @@ title: About Archethought
 excerpt: "Technology developers of strong character"
 modified: 
 image:
-  feature: logo-ArchethoughtInc.png
+  feature: logo-Archethought.png
   credit: Archethought
   creditlink: http://archethought.com
 ---
@@ -17,5 +17,7 @@ The Archethought team has a wide variety of skill sets and diciplines from backe
 * We work with and collect big data sets, then combine your data with tools that bring you insight
 * Using Beacons and Sensors, we gather data and seek to create learning and actionable observations
 * We excel in front-end and backend development, creating Apps, APIs, and Services
+
+![Jordan & Krizia working](/images/JordanKeyshaKrizia-w500.jpg "Jordan, Keysha, Krizia hard at work")
 
 
