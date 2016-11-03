@@ -140,8 +140,9 @@ $ ifconfig
 ~~~
 
 Or externally with: 
+
 ~~~bash
- docker inspect <container name>
+$ docker inspect <container name>
 ~~~
 
 
