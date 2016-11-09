@@ -12,6 +12,8 @@ image:
 
 [We are techonology developers of exceptionally strong character.](http://www.archethought.com/)
 
+![Archethought Team](/images/IMG_6253-group-w1024h550.jpg "Archethought Team")
+
 The Archethought team has a wide variety of skill sets and diciplines from backend development, frontend design, to circuit and sensor implementation. We look to cultivate a team environment that is fun and engaging with the opportunity to learn new things and explore new technologies.
 
 * We work with and collect big data sets, then combine your data with tools that bring you insight
