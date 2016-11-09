@@ -51,13 +51,17 @@ Now, if you exit the container and need to get back in, you can gain access with
 ## Start Hadoop
 
 Start up Hadoop from within the master hadoop container. Again, per [Kiwen Lau's site](http://kiwenlau.com/2016/06/26/hadoop-cluster-docker-update-english/):
+
 ~~~bash
 ./start-hadoop.sh
 ~~~
+
 And test: 
+
 ~~~bash
  ./run-wordcount.sh
 ~~~
+
 See [Kiwen Lau's website](http://kiwenlau.com/2016/06/26/hadoop-cluster-docker-update-english/) for expected output.
 
 ## Load the Data
@@ -65,6 +69,7 @@ See [Kiwen Lau's website](http://kiwenlau.com/2016/06/26/hadoop-cluster-docker-u
 Add your data file to the container, and then put it into Hadoop.
 
 Example using sftp from the container host to the container:
+
 ~~~
 sftp root@<container ip address>
 put <data files(s)>
@@ -72,6 +77,7 @@ exit
 ~~~
 
 or, from within the container:
+
 ~~~
 sftp <host user>@<host ip> 
 get  <data files(s)>
@@ -84,12 +90,14 @@ Example:
 `hadoop fs -mkdir -p testData`
 
 Add the file(s) to HDFS
+
 ~~~bash
 hdfs dfs -put <data files(s)> <directory name>
 ex: hdfs dfs -put simpleSample.csv testData
 ~~~
 
 Look to ensure the data is really there!
+
 ~~~
 hdfs dfs -ls
 ~~~
