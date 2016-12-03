@@ -33,4 +33,9 @@ carolyn_ownby:
   avatar: avatars/carolyn.jpg
   bio: "Versatile Software Developer"
 
-  
+peter_klipfel:
+  name: Peter Klipfel
+  web: http://peterklipfel.com/
+  email: peter@klipfel.me
+
+ 
