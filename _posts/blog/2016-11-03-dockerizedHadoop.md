@@ -4,7 +4,7 @@ title: "Prototype Hadoop Cluster"
 author: carolyn_ownby
 share: true
 modified:
-categories: blog howTo
+categories: blog
 tags:	[docker, hadoop]
 date:   2016-11-03T12:00:00
 

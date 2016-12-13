@@ -4,7 +4,7 @@ title: "Ubuntu Bootable USB with Kickstart"
 author: peter_klipfel
 share: true
 modified:
-categories: blog howTo
+categories: blog
 tags:	[ubuntu, usb, kickstart, linux]
 date:   2015-03-29T12:00:00
 

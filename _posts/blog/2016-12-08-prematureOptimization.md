@@ -2,9 +2,9 @@
 layout: post
 title: "Premature Optimization is Death"
 author: dixon_dick
-share: true
+share: false
 modified:
-categories: blog howTo
+categories: blog
 tags:	[methods]
 date:   2016-12-08T12:00:00
 
