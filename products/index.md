@@ -13,8 +13,8 @@ __Transform Your Business Through Knowledge__
 
 
 ## Where IS Everybody?!?
-When your customer and employee locations are invisible, that value is invisible. For customers and
-employees inside your facilities who are shopping, working, living, and playing, 
+When your customers and employees are invisible, value is invisible. 
+For customers and employees inside your facilities who are shopping, working, living, and playing, 
 Archethought Shepherd™ records locations quickly, easily, and accurately over time, 
 enabling creative new service, engagement, and safety opportunities. 
 Unlike vision-based and proprietary solutions, our Bluetooth solution is low cost and
