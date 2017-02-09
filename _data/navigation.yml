@@ -1,13 +1,13 @@
 # Site navigation links
 
 - title: Home
-  url: /
+  url: /what/
 
 - title: About
   url: /about/
 
-- title: What We Do
-  url: /what/
+- title: Products
+  url: /products/
 
 - title: Videos
   url: /videos/

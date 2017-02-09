@@ -8,7 +8,7 @@ image:
   credit: 
   creditlink: 
 ---
-Please see our website for nice layout with pictures: [archethought.com](http://www.archethought.com/)
+
 
 ## Smart Infrastructure & IoT
 _Working with the Community to Create Revolutionary Solutions_
