@@ -34,6 +34,15 @@ daniel_zukowski:
   avatar: avatars/daniel.jpg
   bio: ""
 
+chris-boertien:
+  name: Chris Boertien
+  web: https://ca.linkedin.com/in/chris-boertien-76714636
+  email: chris@archethought.com
+  avatar: avatars/chrisb.jpg
+  bio: "Software Engineer with experience in Web Frameworks, Programming Languages, Operating Systems, System Administration, Devops and Data Analysis."
+
+
+
 peter_klipfel:
   name: Peter Klipfel
   web: http://peterklipfel.com/
