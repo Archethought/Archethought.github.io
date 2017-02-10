@@ -1,30 +1,10 @@
 # Authors
-
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
-
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
-  avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: CorneliusFiddlebone
-
 dixon_dick:
   name: Dixon Dick
   web: https://www.linkedin.com/in/dixondick
   email: dixon@archethought.com
   avatar: avatars/dixon.jpg
-  bio: "Add Dixon bio here"
+  bio: "Dad, Entrepreneur, Technologist, Mentor"
 
 carolyn_ownby:
   name: Carolyn Ownby
@@ -32,6 +12,27 @@ carolyn_ownby:
   email: carolyn@archethought.com
   avatar: avatars/carolyn.jpg
   bio: "Versatile Software Developer"
+
+krizia_conrad:
+  name: Krizia Conrad
+  web: https://www.linkedin.com/in/kkconrad
+  twitter: https://twitter.com/KKrConrad
+  avatar: avatars/purpleOneEye.jpg
+  bio: "Web Developer"
+
+jordan_dick:
+  name: Jordan Dick
+  web: https://www.linkedin.com/in/jordan-dick-01872582
+  email: jordan@archethought.com
+  avatar: avatars/crossEyeSmile.jpg
+  bio: ""
+
+daniel_zukowski:
+  name: Daniel Zukowski
+  web: https://www.linkedin.com/in/danielzukowski
+  email: daniel@archethought.com
+  avatar: avatars/daniel.jpg
+  bio: ""
 
 peter_klipfel:
   name: Peter Klipfel
