@@ -1,0 +1,33 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body id="page">
+
+{% include navigation.html %}
+
+<!-- for corporate-1 -->
+<!-- Bootstrap Core CSS -->
+<link href="{{ site.url }}/assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+<link href="{{ site.url }}/assets/css/custom.css" rel="stylesheet">
+
+{{content}}
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}
+
+</body>
+</html>
