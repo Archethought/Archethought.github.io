@@ -1,22 +1,35 @@
-# Site navigation links
-
 - title: Home
-  url: /
-
-- title: About
-  url: /about/
+  url: "/"
+  side: left
 
 - title: Products
-  url: /products/
+  url: "/products/"
+  side: left
+  dropdown:
+  - title: "pscredits"
+    url: "/products/pscredits/"
+  - title: "what"
+    url: "/products/what-grid/"
 
-- title: Videos
-  url: /videos/
+- title: "about"
+  url: "/about/"
+  side: left
+
+- title: "what"
+  url: "/what/"
+  side: left
 
 - title: Blog
-  url: /blog/
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
 
-- title: Search
-  url: /search/
+- title: "Search"
+  url: "/search/"
+  side: right
 
-- title: Contact Us
-  url: /contact/
+- title: "Contact"
+  url: "/contact/"
+  side: right

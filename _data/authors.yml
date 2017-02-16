@@ -1,4 +1,11 @@
-# Authors
+# Author details
+#
+# 1. Edit information below
+# 2. Change site author in config.yml
+# 3. Change default post/page authors in config.yml
+#
+# Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
+
 dixon_dick:
   name: Dixon Dick
   web: https://www.linkedin.com/in/dixondick
@@ -48,4 +55,3 @@ peter_klipfel:
   web: http://peterklipfel.com/
   email: peter@klipfel.me
 
- 
