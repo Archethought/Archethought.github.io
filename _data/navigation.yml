@@ -9,8 +9,8 @@
 - title: Products
   url: /products/
 
-- title: Videos
-  url: /videos/
+#- title: Videos
+#  url: /videos/
 
 - title: Blog
   url: /blog/
