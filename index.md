@@ -10,9 +10,11 @@ image:
 ---
 
 
-Archethought, founded in 2008, recently pivoted from data science consulting to commercialize micro-location technology, a rapidly growing field mapping indoor human and asset location. The company offers a subscription platform to deliver applications based on micro-location tracking data, using inexpensive, open source sensor hardware. Portions of the technology were developed to support astronaut wellness on the NASA Mars Mission.  
+Archethought is commercializing micro-location technology, a rapidly growing field, mapping indoor location for people and valuable assets. 
+The company offers a subscription platform to deliver solutions in Retail, Security, Hospitality & Conferences, Insurance, Manufacturing and Building Information Management based on micro-location tracking data. 
 
-## *Please stand by as we undergo constuction* 
+We are seeking Pilot Partners to develop and deploy solutions. Contact us to learn more.
+
 
 
 
