@@ -10,7 +10,7 @@ image:
 ---
 [^1]: Example: *domain.com/category-name/post-title*
 
-[We are techonology developers of exceptionally strong character.](http://www.archethought.com/)
+We are technology developers of exceptionally strong character.
 
 ![Archethought Team](/images/IMG_6253-group-w1024h550.jpg "Archethought Team")
 
