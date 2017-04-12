@@ -9,11 +9,9 @@ image:
   creditlink: 
 ---
 
+Archethought is commercializing smart city and micro-location technology, rapidly growing fields mapping outdoor & indoor locations for people and intelligent assets. We offer a subscription platform, Metro Bus™ to companies seeking to reduce costs and increase opportunities to help their customers and improve operational efficiency by collecting and using better data.
 
-Archethought is commercializing micro-location technology, a rapidly growing field, mapping indoor location for people and valuable assets. 
-The company offers a subscription platform to deliver solutions in Retail, Security, Hospitality & Conferences, Insurance, Manufacturing and Building Information Management based on micro-location tracking data. 
-
-We are seeking Pilot Partners to develop and deploy solutions. Contact us to learn more.
+We are seeking Pilot Partners to develop and deploy solutions. Contact us to arrange a pilot for your organization.
 
 
 
