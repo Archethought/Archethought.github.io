@@ -1,7 +1,12 @@
 # Archethought Blog
 
 Experimenting with jekyll-based website creation & blogging:  
-We decided to go with the SoSimple layout for now. See below for branches with other layouts we considered. We can change layouts at any time fairly easily.
+We decided to go with the SoSimple layout for now.
+
+The new prototype website:
+* [repo](https://github.com/cownby/webPrototype-Archethought)
+* [url](https://cownby.github.io/webPrototype-Archethought/)
+
 
 ## How to add information - the short of it
 (See _the long of it_ below.)
