@@ -31,14 +31,25 @@ Archethought Smart Venue™ Technology provides a mobile or permanent installati
 * Data is stored permanently, providing future evidence to analyze full urban noise patterns
 
 ## FAQ
-<u>What is different from available solutions?</u>  
-We immediately provide accurate data that you cannot obtain without expensive equipment and special skills.  
-By storing data in the cloud, you can also provide future analytics for planning.
+<u>How accurate is the noise monitor?</u
+Using Class 2 (Type 2) monitors gives +/- 2 dBA accuracy.
 
-<u>Will city employees and residents use a smartphone to view the data?</u>  
-Yes. Remember when you didn't have a smartphone, GPS, and navigation? We're just repeating history, because when someone wants key information and they find it, they'll find a device to get it.
+<u>Is the sensor waterproof?</u
+The electronics are contained in an IP65 water resistant case. However the microphone sensor should be protected from direct rain.
+
+<u>Can we download the noise sensing data easily and use it in our own spreadsheets?</u
+Yes, all data reported by the sensors is available from the web interface.
+
+<u>What is different from available solutions?</u>  
+Noise monitoring data is difficult to obtain without expensive equipment and specialist skills.  
+By storing data permanently in the cloud, noise mapping, ROI and livability analysis become possible for future planning.
+
+<u>Will city employees and residents use a smartphone or web to view the data?</u>  
+Yes. Remember when you didn't have a smartphone, GPS, and navigation? When someone wants key information and find it requires internet access, they'll find a device and the training to get it.
 
 <u>Are the display solutions customizable?</u>  
 Yes. We provide a white label mechanism to include logo and other municipal information for the easy-to-use web interface.
 
+<u>Got graphs?</u
+Tons.
 
