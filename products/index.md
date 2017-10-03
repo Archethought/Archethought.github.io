@@ -12,10 +12,8 @@ image:
 __Transform Conversations Through Knowledge__
 
 
-## Platform Summary
-Archethought solves indoor positioning (micro-location) problems by locating people and assets with high accuracy. 
-Using tools developed for space exploration, Archethought Smart Venue™ innovates by combining open source
-sensor systems with cloud-based algorithms to capture, process and visually display locations and tracks.
+## Solution Summary
+Archethought solves urban noise problems by providing a cost-effective, easy to deploy noise monitoring system. Using off the shelf components integrated with sophisticated software and cloud based processing systems, Archethought makes near real-time noise reporting accessible to smaller cities with limited budgets and expertise, seeking to reduce and avoid the costs of noise complaints, while improving overall quality of living in urban settings.
 
 ## Problems
 How can our cities identify and solve noise issues among residents and events?
