@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Archethought Smart Venue™ Noise Monitoring
-excerpt: "Transformation Through Knowledge"
+excerpt: "Transform Conversations Through Knowledge"
 modified: 
 image:
   feature: logo-Archethought.png
@@ -9,7 +9,7 @@ image:
   creditlink: http://archethought.com
 ---
 
-__Transform Your Conversations Through Knowledge__
+__Transform Conversations Through Knowledge__
 
 
 ## Platform Summary
