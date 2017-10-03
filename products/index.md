@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archethought Smart Venue™ Noise Monitoring
+title: Smart Venue™ Noise Monitoring
 excerpt: "Transform Conversations Through Knowledge"
 modified: 
 image:
@@ -14,6 +14,8 @@ __Transform Conversations Through Knowledge__
 
 ## Solution Summary
 Archethought solves urban noise problems by providing a cost-effective, easy to deploy noise monitoring system. Using off the shelf components integrated with sophisticated software and cloud based processing systems, Archethought makes near real-time noise reporting accessible to smaller cities with limited budgets and expertise, seeking to reduce and avoid the costs of noise complaints, while improving overall quality of living in urban settings.
+
+When event producers, sound engineers, residents and public safety officials can all see accurate noise information, emotional dynamics become real, productive conversations towards lasting solutions.
 
 ## Problems
 How can our cities identify and solve noise issues among residents and events?
