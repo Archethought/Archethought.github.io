@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Archethought Shepherd
-excerpt: "Transform Your Business Through Knowledge"
+title: Archethought Smart Venue™
+excerpt: "Transformation Through Knowledge"
 modified: 
 image:
   feature: logo-Archethought.png
@@ -14,7 +14,7 @@ __Transform Your Conversations Through Knowledge__
 
 ## Platform Summary
 Archethought solves indoor positioning (micro-location) problems by locating people and assets with high accuracy. 
-Using tools developed for space exploration, Archethought Shepherd™ innovates by combining open source
+Using tools developed for space exploration, Archethought Smart Venue™ innovates by combining open source
 sensor systems with cloud-based algorithms to capture, process and visually display locations and tracks.
 
 ## Problems
