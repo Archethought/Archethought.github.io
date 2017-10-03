@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archethought Smart Venue™
+title: Archethought Smart Venue™ Noise Monitoring
 excerpt: "Transformation Through Knowledge"
 modified: 
 image:
